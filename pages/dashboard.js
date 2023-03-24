@@ -15,7 +15,7 @@ function Homepage({ redirect }) {
   const [dashboardPage, setDashboardPage] = useState("dashboard")
 
 
-  if (typeof window !== 'undefined') {
+  
     useEffect(() => {
       const fetchUserData = async () => {
         const response = await axios.get(
@@ -23,9 +23,9 @@ function Homepage({ redirect }) {
         );
         setUserData(response.data);
       };
-      fetchUserData();
+      typeof window !== 'undefined' &&  fetchUserData();
     }, []);
-  }
+  
 
   
 
