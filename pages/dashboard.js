@@ -4,7 +4,7 @@ import { AuthContext } from "@/context/authContext";
 import axios from "axios";
 import { AiOutlineDown, AiOutlineUp } from "react-icons/ai";
 import { MessagesIcon, NotesIcon, Files, Chatbot, Truck, Board } from "@/public/svgs";
-import {Customer, Dashboard, Documents, Jenny, Messages, Notes} from "./components"
+import {Customer, Dashboard, Documents, Jenny, Messages, Notes} from "../components"
 
 
 function Homepage({ redirect }) {
