@@ -156,7 +156,7 @@ console.log(formik.errors)
               </span>
               , and our
               <span className="text-[#16192C] font-semibold">
-                Privacy Policy
+                 Privacy Policy
               </span>
             </p>
             {formik.errors.checkbox && <p className="text-red-500">{formik.errors.checkbox}</p>}
